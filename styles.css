@@ -67,6 +67,38 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 480px) {
+  .hero-video {
+    height: 60vh; /* Smaller height for mobile */
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+}
+.overlay {
+  background: rgba(0, 51, 153, 0.7); /* Slightly darker for mobile clarity */
+}
 
 .overlay {
   position: absolute;
