@@ -109,7 +109,20 @@ nav a {
   background: rgba(0, 51, 153, 0.6); /* Blue overlay */
   z-index: -1;
 }
+/* General section styling (Keep this) */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
 
+/* New CSS for the full-width About Us section */
+.about-us-section {
+    max-width: 100%;
+    margin: 0;
+    padding: 60px 0; /* Adjust vertical padding as needed */
+    background-color: #f8f9fa; /* Example: add a light background to see the full width */
+}
 .hero-content {
   z-index: 1;
   max-width: 800px;
