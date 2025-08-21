@@ -257,7 +257,36 @@ width: 100%
     border-top: 1px solid #ccc;
     outline: none;
 }
+/* Container for the two-column layout */
+.about-content-wrapper {
+  display: flex;
+  flex-direction: row; /* Arranges the items horizontally */
+  gap: 40px; /* Adds space between the columns */
+  align-items: flex-start; /* Aligns items to the top */
+}
 
+/* Styles for the text and image containers */
+.about-text,
+.about-image {
+  flex: 1; /* Both items will take up equal space */
+  min-width: 0; /* Ensures content doesn't overflow */
+}
+
+/* Styles for the image */
+.about-image img {
+  width: 100%; /* Makes the image fill its container */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about-content-wrapper {
+    flex-direction: column; /* Stacks the items vertically on small screens */
+    gap: 20px; /* Reduces the gap for a better mobile layout */
+  }
+}
 footer {
   text-align: center;
   padding: 20px;
