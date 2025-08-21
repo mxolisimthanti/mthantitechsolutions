@@ -108,13 +108,6 @@ nav a {
   height: 100%;
   background: rgba(0, 51, 153, 0.6); /* Blue overlay */
   z-index: -1;
-}
-/* General section styling (Keep this) */
-section {
-  padding: 60px 40px;
-  max-width: 900px;
-  margin: auto;
-}
 
 
 .hero-content {
