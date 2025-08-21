@@ -116,13 +116,7 @@ section {
   margin: auto;
 }
 
-/* New CSS for the full-width About Us section */
-.about-us-section {
-    max-width: 70%;
-    margin: 0;
-    padding: 40px 0; /* Adjust vertical padding as needed */
-    background-color: #f8f9fa; /* Example: add a light background to see the full width */
-}
+
 .hero-content {
   z-index: 1;
   max-width: 800px;
