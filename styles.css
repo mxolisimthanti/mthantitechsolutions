@@ -1,6 +1,62 @@
 /* ======================== */
 /* ===== General Styles ===== */
 /* ======================== */
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #0077b6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.facebook { background-color: #3b5998; color: white; }
+.instagram { background-color: #e1306c; color: white; }
+.youtube { background-color: #ff0000; color: white; }
+.tiktok { background-color: #000000; color: white; }
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
