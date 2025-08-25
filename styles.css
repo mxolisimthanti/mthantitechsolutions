@@ -211,6 +211,12 @@ nav a {
   gap: 40px;
   align-items: flex-start;
 }
+.about-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #002b5c;
+  font-weight: 700;
+  margin-bottom: 10px;
 
 .about-text,
 .about-image {
@@ -225,6 +231,9 @@ nav a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /* Horizontal Earntrepreneur Cards */
+/* ======================== */
+/* ===== Earntreprenuership section ===== */
+/* ======================== */
 .earntrepreneur-boxes {
   display: flex;
   flex-wrap: wrap;
