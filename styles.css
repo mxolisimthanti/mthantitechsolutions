@@ -1,19 +1,28 @@
 /* ======================== */
 /* ===== General Styles ===== */
 /* ======================== */
+.site-header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end; /* Push content to the right */
+  align-items: center;
+}
+
 .main-nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 20px;
+  align-items: flex-end; /* Align menu and icons to the right */
 }
 
 .menu {
   list-style: none;
   display: flex;
-  gap: 30px;
-  margin-bottom: 15px;
+  gap: 25px;
+  margin: 0;
   padding: 0;
 }
 
@@ -30,17 +39,17 @@
 
 .social-icons {
   display: flex;
-  gap: 15px;
-  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .icon {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #f0f0f0;
   color: #333;
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,14 +64,8 @@
 .facebook { background-color: #3b5998; color: white; }
 .instagram { background-color: #e1306c; color: white; }
 .youtube { background-color: #ff0000; color: white; }
-.tiktok { background-color: #000000; color: white; }
+.github { background-color: #333; color: white; }
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-}
 
 section {
   padding: 60px 20px;
