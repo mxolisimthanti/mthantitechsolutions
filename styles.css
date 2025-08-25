@@ -224,6 +224,41 @@ nav a {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Horizontal Earntrepreneur Cards */
+.earntrepreneur-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.earntrepreneur-card {
+  flex: 1 1 300px;
+  background-color: #f2f6fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.earntrepreneur-card:hover {
+  transform: translateY(-5px);
+}
+
+.earntrepreneur-card h3 {
+  color: #0077cc;
+  margin-bottom: 12px;
+  font-size: 1.2em;
+}
+
+.earntrepreneur-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
 
 /* ======================== */
 /* ===== Services Section ===== */
