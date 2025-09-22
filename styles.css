@@ -208,7 +208,7 @@ nav a {
 .about-content-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 150px;
   align-items: flex-start;
 }
 
