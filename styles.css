@@ -247,6 +247,18 @@ nav a {
 .about-text {
   width: 100%;
 }
+@media (max-width: 768px) {
+  .about-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+}
+
 
 /* Image container */
 .about-image {
