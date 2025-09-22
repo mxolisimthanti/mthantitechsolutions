@@ -207,9 +207,10 @@ nav a {
 /* ======================== */
 /* About Section */
 .about-section {
-  padding: 80px 40px;
+  padding: 60px 20px;
   background-color: #ffffff;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
+  text-align: center;   /* centers text inside elements */
 }
 .about {
   display: flex;
