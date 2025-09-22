@@ -208,16 +208,25 @@ nav a {
 .about-content-wrapper {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 40px;
   align-items: flex-start;
 }
 
 
 .about-image img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Paragraph container */
+.about-text {
+  width: 50%;
+}
+
+/* Image container */
+.about-image {
+  width: 50%;
 }
 /* Horizontal Earntrepreneur Cards */
 /* ======================== */
