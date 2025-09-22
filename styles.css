@@ -205,6 +205,14 @@ nav a {
 /* ======================== */
 /* ===== About Us Section ===== */
 /* ======================== */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers content horizontally */
+  text-align: center;   /* centers text inside elements */
+  padding: 40px 20px;   /* optional: adds spacing */
+}
 .about-content-wrapper {
   display: flex;
   flex-direction: row;
