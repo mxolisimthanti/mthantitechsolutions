@@ -212,6 +212,14 @@ nav a {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   text-align: center;   /* centers text inside elements */
 }
+.about-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #002b5c;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .about {
   display: flex;
   flex-direction: column;
