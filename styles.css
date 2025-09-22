@@ -211,13 +211,6 @@ nav a {
   gap: 40px;
   align-items: flex-start;
 }
-
-.about-title {
-  text-align: center;
-  font-size: 2.2em;
-  color: #002b5c;
-  font-weight: 700;
-  margin-bottom: 10px;
   
 .about-image img {
   width: 100%;
