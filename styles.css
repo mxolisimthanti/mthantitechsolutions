@@ -212,7 +212,13 @@ nav a {
   align-items: flex-start;
 }
 
-
+.About Us-title {
+  text-align: center;
+  font-size: 2.2em;
+  color: #002b5c;
+  font-weight: 700;
+  margin-bottom: 10px;
+  
 .about-image img {
   width: 100%;
   height: auto;
