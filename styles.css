@@ -205,7 +205,12 @@ nav a {
 /* ======================== */
 /* ===== About Us Section ===== */
 /* ======================== */
-
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
 .about {
   display: flex;
   flex-direction: column;
