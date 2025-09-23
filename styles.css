@@ -205,13 +205,14 @@ nav a {
 /* ======================== */
 /* ===== About Us Section ===== */
 /* ======================== */
-/* About Section */
+
 .about-section {
   padding: 60px 20px;
   background-color: #ffffff;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
-  text-align: center;   /* centers text inside elements */
+  text-align: center;
 }
+
 .about-title {
   text-align: center;
   font-size: 2.2em;
@@ -221,20 +222,26 @@ nav a {
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centers content horizontally */
-  text-align: left;   /* centers text inside elements */
-  padding: 40px 20px;   /* optional: adds spacing */
+  padding: 40px 20px;
 }
+
 .about-content-wrapper {
   display: flex;
   flex-direction: row;
   gap: 40px;
   align-items: flex-start;
+  justify-content: center;
 }
-  .about-text {
-  width: 50%; /* match image width for balanced layout */
+
+/* Paragraph container */
+.about-text {
+  width: 50%;
+  text-align: left;
+}
+
+/* Image container */
+.about-image {
+  width: 50%;
 }
 
 .about-image img {
@@ -243,10 +250,8 @@ nav a {
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* Paragraph container */
-.about-text {
-  width: 100%;
-}
+
+/* Responsive layout */
 @media (max-width: 768px) {
   .about-content-wrapper {
     flex-direction: column;
@@ -256,14 +261,10 @@ nav a {
   .about-text,
   .about-image {
     width: 100%;
+    text-align: center;
   }
 }
 
-
-/* Image container */
-.about-image {
-  width: 50%;
-}
 /* Horizontal Earntrepreneur Cards */
 /* ======================== */
 /* ===== Earntreprenuership section ===== */
