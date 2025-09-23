@@ -467,6 +467,21 @@ nav a {
 /* ======================== */
 /* ===== Contact Section ===== */
 /* ======================== */
+
+.contact-title {
+  text-align: center;
+  font-size: 2.4em;
+  color: #002b5c;               /* Deep blue for consistency */
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #e60000; /* Red underline */
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
 .contact form {
   display: flex;
   flex-direction: column;
