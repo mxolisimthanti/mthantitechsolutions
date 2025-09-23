@@ -391,6 +391,10 @@ nav a {
   border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
   display: inline-block;
   padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Ensures full-width block for centering */
+  width: fit-content; /* Keeps underline tight to text */
 }
 
 /* Subheading (h3) */
@@ -400,6 +404,10 @@ nav a {
   color: #444444;
   font-weight: 500;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* Ensures full-width block for centering */
+  width: fit-content; /* Keeps underline tight to text */
 }
 
 
