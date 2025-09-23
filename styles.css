@@ -368,20 +368,77 @@ nav a {
 /* ======================== */
 /* ===== Services Section ===== */
 /* ======================== */
-.services ul {
-  list-style: square;
-  padding-left: 20px;
+
+.services {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
 }
 
-.services img {
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+/* Section Title */
+.services-title {
+  text-align: center;
+  font-size: 2.4em;
+  color: #002b5c;           /* Deep blue for trust and tech */
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-#services > img {
+/* Content Wrapper */
+.service-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Image Container */
+.service-image {
+  width: 50%;
+}
+
+.services-img {
   width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+/* Paragraph Styling */
+.service-image p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #333333;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .service-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services-title {
+    font-size: 2em;
+  }
+
+  .service-image p {
+    text-align: center;
+  }
+}
+
 
 /* ======================== */
 /* ===== Contact Section ===== */
