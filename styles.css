@@ -220,6 +220,8 @@ nav a {
   font-weight: 700;
   margin-bottom: 30px;
   border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .about {
@@ -322,8 +324,10 @@ nav a {
   font-size: 2.2em;
   color: #002b5c;
   font-weight: 700;
-  border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
   margin-bottom: 10px;
+  border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 .earntrepreneurship-intro {
