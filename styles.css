@@ -381,17 +381,27 @@ nav a {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
 }
 
-/* Section Title */
+/* Section Title (h2) */
 .services-title {
   text-align: center;
   font-size: 2.4em;
-  color: #002b5c;           /* Deep blue for trust and tech */
+  color: #002b5c;                   /* Deep blue for trust and tech */
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
   display: inline-block;
   padding-bottom: 5px;
 }
+
+/* Subheading (h3) */
+.services-subtitle {
+  text-align: center;
+  font-size: 1.4em;
+  color: #444444;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
 
 /* Content Wrapper */
 .service-content-wrapper {
