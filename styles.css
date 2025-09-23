@@ -235,13 +235,13 @@ nav a {
 
 /* Paragraph container */
 .about-text {
-  width: 50%;
+  width: 70%;
   text-align: left;
 }
 
 /* Image container */
 .about-image {
-  width: 50%;
+  width: 30%;
 }
 
 .about-image img {
