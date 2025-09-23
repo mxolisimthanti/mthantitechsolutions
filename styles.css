@@ -468,45 +468,72 @@ nav a {
 /* ===== Contact Section ===== */
 /* ======================== */
 
-.contact-title {
+/* Contact Section Container */
+.contact {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
   text-align: center;
+}
+
+/* Section Title */
+.contact-title {
   font-size: 2.4em;
-  color: #002b5c;                   /* Deep blue for trust and tech */
+  color: #002b5c;
   font-weight: 700;
-  margin-bottom: 10px;
-  border-bottom: 3px solid #e60000; /* Optional: red underline for branding */
-  display: inline-block;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #e60000;
   padding-bottom: 5px;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  display: block; /* Ensures full-width block for centering */
-  width: fit-content; /* Keeps underline tight to text */
-
-.contact-section {
-  text-align: center;
+  width: fit-content;
 }
 
-.contact form {
+/* Contact Form */
+#contactForm {
+  max-width: 500px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
-.contact input,
-.contact textarea {
-  padding: 10px;
+/* Input Fields */
+#contactForm input,
+#contactForm textarea {
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
+  font-size: 1em;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.contact button {
+/* Button Styling */
+#contactForm button {
   background-color: #0073e6;
   color: white;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+#contactForm button:hover {
+  background-color: #005bb5;
+}
+
+/* Contact Info */
+.contact p {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #333;
+}
+
 
 /* ======================== */
 /* ===== Chatbot ===== */
