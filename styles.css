@@ -468,20 +468,20 @@ nav a {
 /* ===== Contact Section ===== */
 /* ======================== */
 
-/* Contact Section Container */
-.contact {
+/* Contact Section */
+.contact-section {
   padding: 60px 20px;
   background-color: #ffffff;
   font-family: 'Segoe UI', 'Roboto', sans-serif;
-  text-align: center;
 }
 
-/* Section Title */
+/* Title */
 .contact-title {
+  text-align: center;
   font-size: 2.4em;
   color: #002b5c;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-bottom: 3px solid #e60000;
   padding-bottom: 5px;
   display: inline-block;
@@ -490,16 +490,26 @@ nav a {
   width: fit-content;
 }
 
-/* Contact Form */
+/* Wrapper: Split into two columns */
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Left: Form */
+.contact-form {
+  width: 50%;
+}
+
 #contactForm {
-  max-width: 500px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* Input Fields */
 #contactForm input,
 #contactForm textarea {
   padding: 12px;
@@ -511,7 +521,6 @@ nav a {
   box-sizing: border-box;
 }
 
-/* Button Styling */
 #contactForm button {
   background-color: #0073e6;
   color: white;
@@ -527,11 +536,25 @@ nav a {
   background-color: #005bb5;
 }
 
-/* Contact Info */
-.contact p {
-  margin-top: 20px;
-  font-size: 1em;
-  color: #333;
+/* Right: Map */
+.contact-map {
+  width: 50%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
+  }
+
+  iframe {
+    height: 250px;
+  }
 }
 
 
