@@ -21,17 +21,21 @@
 .menu {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 35px;
   margin: 0;
   padding: 0;
 }
+
 
 .menu li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  font-size: 18px;         /* Increased from default */
+  padding: 10px 15px;      /* Adds clickable space around text */
   transition: color 0.3s ease;
 }
+
 
 .menu li a:hover {
   color: #0077b6;
