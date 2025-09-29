@@ -170,6 +170,13 @@ nav a {
     flex-direction: column;
   }
 }
+.hamburger svg {
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover svg {
+  transform: scale(1.1);
+}
 
 
 /* ======================== */
