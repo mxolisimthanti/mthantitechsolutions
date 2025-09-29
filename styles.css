@@ -673,3 +673,65 @@ footer {
     font-size: 0.95rem;
   }
 }
+
+@media (max-width: 768px) {
+  /* Navigation */
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu li a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /* Hero Section */
+  .hero-video {
+    height: auto;
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  /* General Button */
+  .btn {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  /* Logo */
+  .logo img {
+    height: 80px;
+  }
+
+  /* Social Icons */
+  .social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+}
+
