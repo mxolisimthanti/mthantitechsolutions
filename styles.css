@@ -125,12 +125,18 @@ nav a {
   color: #0073e6;
   font-weight: bold;
 }
-/* Hide mobile nav by default */
+/* Desktop nav always visible */
+.desktop-nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* Mobile nav hidden by default */
 .mobile-nav {
   display: none;
 }
 
-/* Show when toggled */
+/* Show mobile nav when toggled */
 .mobile-nav.show {
   display: flex;
   flex-direction: column;
@@ -138,50 +144,24 @@ nav a {
   background-color: #ffffff;
   width: 100%;
   padding: 20px 0;
-  z-index: 10;
 }
 
-/* Menu styling */
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+/* Hamburger hidden on desktop */
+.hamburger {
+  display: none;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: #0073e6;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  transition: color 0.3s ease;
-}
-
-.menu li a:hover {
-  color: #005bb5;
-}
-
-/* Mobile only */
+/* Responsive rules */
 @media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
   .hamburger {
     display: block;
   }
 }
 
-/* Desktop only */
-@media (min-width: 769px) {
-  .mobile-nav {
-    display: none !important;
-  }
-
-  .hamburger {
-    display: none;
-  }
-}
 
 
 /* ======================== */
