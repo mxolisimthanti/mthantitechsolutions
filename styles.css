@@ -125,18 +125,32 @@ nav a {
   color: #0073e6;
   font-weight: bold;
 }
-/* Desktop nav always visible */
+/* Desktop Nav */
 .desktop-nav {
   display: flex;
+  justify-content: flex-end;
   gap: 30px;
 }
 
-/* Mobile nav hidden by default */
+.desktop-nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.desktop-nav .menu li a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Mobile Nav Hidden by Default */
 .mobile-nav {
   display: none;
 }
 
-/* Show mobile nav when toggled */
 .mobile-nav.show {
   display: flex;
   flex-direction: column;
@@ -146,12 +160,27 @@ nav a {
   padding: 20px 0;
 }
 
-/* Hamburger hidden on desktop */
+.mobile-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Hamburger Hidden on Desktop */
 .hamburger {
   display: none;
 }
 
-/* Responsive rules */
+/* Responsive Rules */
 @media (max-width: 768px) {
   .desktop-nav {
     display: none;
@@ -159,6 +188,16 @@ nav a {
 
   .hamburger {
     display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-nav {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
 
