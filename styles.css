@@ -142,8 +142,8 @@ nav a {
   text-decoration: none;
   color: #0073e6;
   font-weight: bold;
-  font-size: 18px;
-  padding: 10px 20px;
+  font-size: 12px;
+  padding: 8px 16px;
 }
 
 /* Mobile Nav Hidden by Default */
