@@ -31,7 +31,7 @@
   font-weight: bold;
   font-size: 54px;
   padding: 16px 24px;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
   transition: color 0.3s ease;
 }
@@ -55,7 +55,7 @@
   font-size: 14px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   transition: all 0.3s ease;
 }
 
