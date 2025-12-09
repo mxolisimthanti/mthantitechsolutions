@@ -3,25 +3,24 @@
 /* ======================== */
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
+/* Logo stays left */
 .logo {
-  flex: 0 0 auto; /* stays left */
+  flex: 0 0 auto;
 }
 
-.desktop-nav {
-  flex: 1; /* takes center space */
-  display: flex;
-  justify-content: center;
-}
+/* Navigation block centers itself */
 .main-nav {
   flex: 1;
   display: flex;
   justify-content: center;
 }
 
+/* Menu items spaced evenly */
 .menu {
   display: flex;
   gap: 60px;
@@ -36,12 +35,16 @@
   font-size: 20px;
   color: #003366;
 }
+
+/* Social icons stay far right */
 .social-icons {
-  flex: 0 0 auto; /* stays right */
+  flex: 0 0 auto;
   display: flex;
   gap: 20px;
+  justify-content: flex-end;
 }
 
+/* Icon styling */
 .icon {
   width: 30px;
   height: 30px;
@@ -60,10 +63,11 @@
   color: #fff;
 }
 
+/* Platform-specific colors */
 .facebook { background-color: #3b5998; color: white; }
 .instagram { background-color: #e1306c; color: white; }
 .youtube { background-color: #ff0000; color: white; }
-.github { background-color: #333; color: white; }
+.tiktok { background-color: #000; color: white; }
 
 
 section {
