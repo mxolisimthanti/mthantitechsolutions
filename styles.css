@@ -1,20 +1,26 @@
 /* ======================== */
 /* ===== General Styles ===== */
 /* ======================== */
+.site-header {
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .header-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  flex: 0 0 auto; /* stays left */
+  flex: 0 0 auto;
 }
 
 .main-nav {
-  flex: 1; /* expands to center */
+  flex: 1;
   display: flex;
-  justify-content: center; /* centers the whole menu block */
+  justify-content: center;
 }
 
 .menu {
@@ -33,7 +39,7 @@
 }
 
 .social-icons {
-  flex: 0 0 auto; /* stays right */
+  flex: 0 0 auto;
   display: flex;
   gap: 20px;
   justify-content: flex-end;
@@ -61,6 +67,7 @@
 .instagram { background-color: #e1306c; color: white; }
 .youtube { background-color: #ff0000; color: white; }
 .tiktok { background-color: #000; color: white; }
+
 
 section {
   padding: 60px 20px;
