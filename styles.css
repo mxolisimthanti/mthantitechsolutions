@@ -1,55 +1,26 @@
 /* ======================== */
 /* ===== General Styles ===== */
 /* ======================== */
-.site-header {
-  background-color: #ffffff;
-  padding: 20px 40px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/*.main-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Align menu and icons to the right 
-} */
-.main-nav {
-  display: flex;
-  justify-content: center; /* Center menu horizontally */
-  align-items: center;
-  flex: 1; /* Allow it to grow and take space */
+.logo {
+  flex: 0 0 auto; /* stays left */
 }
 
-.menu {
-  list-style: none;
+.desktop-nav {
+  flex: 1; /* takes center space */
   display: flex;
-  gap: 85px;
-  margin: 0;
-  padding: 0;
-}
-.menu li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 54px;
-  padding: 8px 12px;
-  letter-spacing: 1px;
-  font-family: 'Montserrat', sans-serif;
-  transition: color 0.3s ease;
-}
-
-
-.menu li a:hover {
-  color: #0077b6;
+  justify-content: center;
 }
 
 .social-icons {
+  flex: 0 0 auto; /* stays right */
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .icon {
